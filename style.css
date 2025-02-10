@@ -153,7 +153,9 @@ footer
     
 }
 
-.navFooter ul
+.imgCoqueteis
 {
-   
+    position: absolute;
+    top: 160px;
+    left: 140px;
 }
