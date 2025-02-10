@@ -62,7 +62,7 @@ h1
 
 #home
 {
-    max-height: 100%;
+    overflow: hidden;
 }
 .video
 {
