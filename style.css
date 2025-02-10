@@ -1,0 +1,159 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header
+{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.ulNav
+{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+    align-items: center;
+    
+}
+
+.liNav
+{
+    background-color: transparent;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.liNav a
+{
+    text-decoration: none;
+    color: white;
+}
+
+p
+{
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+h1
+{
+    font-size: 40px;
+}
+
+.mainSection
+{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+#home
+{
+    max-height: 100%;
+}
+.video
+{
+    width: 100%;
+}
+
+#home
+{
+    position: relative;
+}
+
+.imgSecao1
+{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 90%;
+}
+
+.imgDeFundo
+{
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#oLugar
+{
+    background-image: url(/images/bar_interior.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#nossosDrinks
+{
+    background-image: url(/images/drinks_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.tituloContainer
+{
+    align-self: center;
+    margin-top: 40px;
+}
+.textoContainer
+{
+    align-self: center;
+    justify-self: center;
+}
+.backgroundOpacity
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.3);
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+
+footer
+{
+    width: 100vw;
+    height: 250px;
+    background-color:black;
+    color: white;
+}
+
+.navFooter
+{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.navFooter ul
+{
+   
+}
